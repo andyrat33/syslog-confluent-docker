@@ -1,10 +1,4 @@
 fileignoreconfig:
-- filename: syslog-connector-config.json
-  checksum: 1b817362785335bed1d9c09459b183a5db5f5353ebffe21aafc98d8c671969b9
-- filename: syslog-connector-config2.json
-  checksum: 37b70a3bac415d9da2b0e36686d5939c848f7a4c048eedcbd922d898e775a337
-- filename: my-syslog-docker-start.sh
-  checksum: bec23c1b258f28bbbcece477a000579dc42c33b7185ae54fce10c7b4a27ac193
 - filename: docker-compose.yml
   checksum: d3f998cbba4eca3cda35ceb8fa96ced4ea100f88a3348e82594ccf1366a27f2e
 version: ""
