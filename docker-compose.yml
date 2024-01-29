@@ -13,9 +13,9 @@ services:
     environment:
       CONNECT_BOOTSTRAP_SERVERS: $BOOTSTRAP_SERVERS
       #CONNECT_GROUP_ID: "syslog-connect"
-      CONNECT_CONFIG_STORAGE_TOPIC: syslog-connect-configs
-      CONNECT_OFFSET_STORAGE_TOPIC: syslog-connect-offsets
-      CONNECT_STATUS_STORAGE_TOPIC: syslog-connect-status
+      #CONNECT_CONFIG_STORAGE_TOPIC: syslog-connect-configs
+      #CONNECT_OFFSET_STORAGE_TOPIC: syslog-connect-offsets
+      #CONNECT_STATUS_STORAGE_TOPIC: syslog-connect-status
       #CONNECT_REPLICATION_FACTOR: 3
       #CONNECT_CONFIG_STORAGE_REPLICATION_FACTOR: 3
       #CONNECT_OFFSET_STORAGE_REPLICATION_FACTOR: 3
