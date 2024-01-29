@@ -1,0 +1,5 @@
+syslog-connect  | [2024-01-29 13:25:29,564] WARN [Producer clientId=connector-producer-syslog-tcp-0] Error while fetching metadata with correlation id 84 : {syslog=UNKNOWN_TOPIC_OR_PARTITION} (org.apache.kafka.clients.NetworkClient)
+syslog-connect  | [2024-01-29 13:25:29,696] WARN [Producer clientId=connector-producer-syslog-tcp-0] Error while fetching metadata with correlation id 85 : {syslog=UNKNOWN_TOPIC_OR_PARTITION} (org.apache.kafka.clients.NetworkClient)
+syslog-connect  | [2024-01-29 13:25:29,826] WARN [Producer clientId=connector-producer-syslog-tcp-0] Error while fetching metadata with correlation id 86 : {syslog=UNKNOWN_TOPIC_OR_PARTITION} (org.apache.kafka.clients.NetworkClient)
+syslog-connect  | [2024-01-29 13:25:30,139] WARN [Producer clientId=connector-producer-syslog-tcp-0] Error while fetching metadata with correlation id 87 : {syslog=UNKNOWN_TOPIC_OR_PARTITION} (org.apache.kafka.clients.NetworkClient)
+syslog-connect  | [2024-01-29 13:25:30,351] WARN [Producer clientId=connector-producer-syslog-tcp-0] Error while fetching metadata with correlation id 88 : {syslog=UNKNOWN_TOPIC_OR_PARTITION} (org.apache.kafka.clients.NetworkClient)
