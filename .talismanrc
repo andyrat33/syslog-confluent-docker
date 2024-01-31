@@ -1,6 +1,6 @@
 fileignoreconfig:
 - filename: docker-compose.yml
-  checksum: d3f998cbba4eca3cda35ceb8fa96ced4ea100f88a3348e82594ccf1366a27f2e
+  checksum: 882c5940e4e1b03e56fd4a8f82fc30b69bff5042cf50e2abb01c800a3bbb9882
 - filename: syslog-connector-template.json
   checksum: 96b23035a045914c1e4ccde71438df1cbfae9444d972b67a73a9cacb676f6a8c
 - filename: error.log

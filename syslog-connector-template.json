@@ -5,7 +5,7 @@
       "tasks.max": "1",
       "syslog.port": "5454",
       "syslog.listener": "TCP",
-      "kafka.topic": "syslog_topic",
+      "topic": "syslog_topic",
       "confluent.license":"",
       "confluent.topic.bootstrap.servers": "<bootstrap-server>:9092",
       "confluent.topic.sasl.jaas.config": "org.apache.kafka.common.security.plain.PlainLoginModule required username=\"<username>\" password=\"<password>\";",
