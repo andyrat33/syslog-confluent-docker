@@ -1,3 +1,8 @@
+export BOOTSTRAP_SERVERS=
+export SCHEMA_REGISTRY_URL=
+export BASIC_AUTH_CREDENTIALS_SOURCE="USER_INFO"
+export SCHEMA_REGISTRY_BASIC_AUTH_USER_INFO=
+export SASL_JAAS_CONFIG=
 # paste above into your terminal and then run the "docker compose up" command
 
 #Delete the connector:
@@ -10,7 +15,8 @@
 # curl http://localhost:8083/connector-plugins
 # list connectors
 # curl http://localhost:8083/connectors
-
+# Get status of connector
+curl -X GET http://localhost:8083/connectors/syslog-tcp/status | jq .
 # See test data to the connector
 echo "<34>1 2003-10-11T22:14:15.003Z mymachine.example.com su - ID47 - Your refrigerator is running" | nc -v -w 0 localhost 5454
 
