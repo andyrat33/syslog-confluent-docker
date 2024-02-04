@@ -23,8 +23,6 @@ curl -X GET http://localhost:8083/connectors/syslog-tcp/status | jq .
 echo "<34>1 $(date +'%FT%T.%3NZ') mymachine.example.com su - ID47 - Your refrigerator is running" | nc -v -w 0 localhost 5454
 echo "<34>1 $(date +'%FT%T.%3NZ') mymachine.example.com su - ID47 - docker1 test 1" | nc -v -w 0 172.31.254.216 5454
 
-<34>1 2024-02-04T18:57:45:45.245Z mymachine.example.com su - ID47 - docker1 test 1
-<34>1 2024-02-04T15:55:15.003Z mymachine.example.com su - ID47 - docker1 test 1
 # Restart the container (if needed remove orphans)
 # docker compose up --remove-orphans
 
